@@ -22,7 +22,7 @@ public class MapperCodeYnc implements Runnable {
     public void run() {
         String tem=code();
         createFile(ClassNameConfigure.className.get(ClassNameConfigure.DAO).replaceAll("\\{\\}",className),tem);
-        System.out.println(ClassNameConfigure.className.get(ClassNameConfigure.DAO).replaceAll("\\{\\}",className).replaceAll("java","xml")+"创建成功");
+        System.out.println(Thread.currentThread().getName()+ClassNameConfigure.className.get(ClassNameConfigure.DAO).replaceAll("\\{\\}",className).replaceAll("java","xml")+"创建成功");
     }
     private String code(){
         int tem=0;
@@ -74,7 +74,12 @@ public class MapperCodeYnc implements Runnable {
         head.append("</trim>\n)\n</insert>");  //insert结束
 
         //select all开始
-        head.append("<select id=\""+codeReplace(MethodNameConfigure.SELECTALL)+"\" parameterType=\"java.util.Map\"\nresultMap=\"baseMap\">\nselect\n<include refid=\"base\" />\nfrom "+tableName+"\n<where>\n");
+        head.append("<select id=\""+codeReplace(MethodNameConfigure.SELECTALL)+"\" parameterType=\"");
+                if(CodeMatcher.MethodFieldType(MethodNameConfigure.MethodType.get(MethodNameConfigure.SELECTALL)))
+                    head.append("java.util.Map");
+                else
+                    head.append(packageName+"."+className);
+        head.append("\"\nresultMap=\"baseMap\">\nselect\n<include refid=\"base\" />\nfrom "+tableName+"\n<where>\n");
         for(String i:fieldl){
             head.append("<if test=\""+i+" != null and "+i+" != '' \"> and "+i+"= #{"+i+"}</if>\n");
         }

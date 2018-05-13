@@ -16,15 +16,15 @@ public class OpenConfigure {
     private  boolean scan;
     //#开启扫描后 一下属性均有默认值 默认为true 线程池默认大小为10
     //#是否生成dao
-    private  boolean dao=true;
+    private  boolean dao;
     //是否生成 service接口
-    private  boolean service=true;
+    private  boolean service;
     //是否生成 serviceimp 服务实现 一一对应service接口 若service=false 则没有实现接口
-    private  boolean serviceImp=true;
+    private  boolean serviceImp;
     //是否生成 mybaits mapper文件
-    private  boolean mapper=true;
+    private  boolean mapper;
     //是否创建数据库表
-    private  boolean createTab=true;
+    private  boolean createTab;
     //线程池数量 用于生成代码时使用
     private  int threadPool=10;
 

@@ -27,6 +27,18 @@ public class CodeMatcher {
     }
 
     /**
+     * 匹配方法中是否有map 若有则返回true
+     * @param meth
+     * @return 判断结果
+     */
+    public static boolean MethodFieldType(String meth){
+        String pat="Map|HashMap";
+        Pattern patt=Pattern.compile(pat);
+        Matcher mat= patt.matcher(meth);
+        return mat.find();
+    }
+
+    /**
      * 根据整个方法格式放回方法名的方法格式
      * @param code 方法格式
      * @return
