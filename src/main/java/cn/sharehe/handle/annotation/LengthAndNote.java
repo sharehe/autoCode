@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface LengthAndNote {
+    public @interface LengthAndNote {
     int length() default 32;
     String note() default  "";
 }

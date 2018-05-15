@@ -9,8 +9,8 @@
     <name>wugui</name>
     <version>1.0.2-RELEASE</version>
     <url>https://github.com/xiaoxiaowugui/autoCode</url>
-    <description>Android common lib, include ImageCache, HttpCache, DropDownListView, DownloadManager, Utils and so on</description>
-    <inceptionYear>2012</inceptionYear>
+    <description></description>
+    <inceptionYear>2018</inceptionYear>
 
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -70,23 +70,7 @@
     <build>
 
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.0</version>
-                <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.4</version>
-                <configuration>
-                    <tagNameFormat>v@{project.version}</tagNameFormat>
-                </configuration>
-            </plugin>
+
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
