@@ -16,7 +16,7 @@
 
 该jar包需要依赖mysql--connector
 
-[点击下载jar包](http://sharehe.cn/file/autoCode-1.0.2-RELEASE.jar)
+[点击下载jar包](http://sharehe.cn/file/autoCode-1.1.2-RELEASE.jar)
 
 [点击下载mysql连接驱动](http://sharehe.cn/file/mysql-connector-java-5.1.7-bin.jar)
 
@@ -28,9 +28,9 @@
 
 ```
 <dependency>
-   <groupId>cn.sharehe.auto</groupId>
-   <artifactId>auto</artifactId>
-   <version>1.0.1.RELEASE</version>
+   <groupId>cn.sharehe.autoCode</groupId>
+    artifactId>autoCode</artifactId>
+    <version>1.1.2.RELEASE</version>
 </dependency>
 ```
 

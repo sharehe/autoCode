@@ -2,123 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7475e026-9952-46b4-9e3d-77e2f4bea1ea" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/AutoMaticApp.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/StartRun.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/LengthAndNote.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/NotNull.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/PrimaryKey.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/TableName.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/LengthAndNote.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/NotNull.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/PrimaryKey.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/TableName.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-use.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/DaoCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/MapperCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/ServiceCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/ServiceImpCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/SqlCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/DaoCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/MapperCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/ServiceCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/ServiceImpCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/SqlCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-use.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/class-use/AutoMaticApp.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/class-use/StartRun.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/ClassNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/JdbcConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/MethodNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/OpenConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/PackageNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/VarTypeConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/ClassNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/JdbcConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/MethodNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/OpenConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/PackageNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/VarTypeConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-use.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-use.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/CodeMatcher.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/CreateTable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/DataConnectPool.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/CodeMatcher.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/CreateTable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/DataConnectPool.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-use.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/package-list" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/stylesheet.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/autoCode-1.0.2-RELEASE-javadoc.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/autoCode-1.0.2-RELEASE-sources.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/autoCode-1.0.2-RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp$Instance.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/StartRun.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/AutoIncrement.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/LengthAndNote.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/NotNull.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/PrimaryKey.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/TableName.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/BaseJavaCode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/DaoCodeYnc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/MapperCodeYnc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/ServiceCodeYnc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/ServiceImpCodeYnc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/SqlCodeYnc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/ClassNameConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure$Instance.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/MethodNameConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure$Instance.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure$Instance.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/VarTypeConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/CodeMatcher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/CreateTable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/DataConnectPool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -134,22 +20,42 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-972">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="162">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="237">
-                <caret line="135" column="32" lean-forward="false" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+              <first_editor relative-caret-position="0">
+                <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoIncrement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/AutoIncrement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoCode1.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoCode1.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,9 +96,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/MethodNameConfigure.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/OpenConfigure.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/LengthAndNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/AutoIncrement.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/utils/CodeMatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/SqlCodeYnc.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/MapperCodeYnc.java" />
@@ -201,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/TwoWugui.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/AutoIncrement.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -219,10 +125,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="34" />
+    <option name="x" value="270" />
+    <option name="y" value="88" />
     <option name="width" value="845" />
-    <option name="height" value="674" />
+    <option name="height" value="636" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -284,6 +190,11 @@
               <item name="handle" type="462c0819:PsiDirectoryNode" />
               <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -297,7 +208,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../automatic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vote" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -473,12 +384,12 @@
       <workItem from="1526351792213" duration="6742000" />
       <workItem from="1526394121152" duration="186000" />
       <workItem from="1526401221253" duration="1187000" />
-      <workItem from="1530941281649" duration="15707000" />
+      <workItem from="1530941281649" duration="17680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53079000" />
+    <option name="totallyTimeSpent" value="55052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,8 +413,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21079259" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3035413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3035413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -771,16 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/AutoIncrement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/PrimaryKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -877,10 +778,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/autoCode1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="162">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -888,11 +797,19 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="237">
-            <caret line="135" column="32" lean-forward="false" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+          <first_editor relative-caret-position="0">
+            <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/AutoIncrement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

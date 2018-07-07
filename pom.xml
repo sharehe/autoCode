@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
 
     <name>wugui</name>
-    <version>1.0.2-RELEASE</version>
+    <version>1.1.2-RELEASE</version>
     <url>https://github.com/xiaoxiaowugui/autoCode</url>
     <description></description>
     <inceptionYear>2018</inceptionYear>
