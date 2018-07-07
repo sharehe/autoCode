@@ -67,7 +67,7 @@ startRun.setRootPath("D:/IdeaYuanma1/automatic");	//设置项目源代码位置 
 
 startRun.setPageName()		 // 进入包名的设置
 		.setRootPackage("cn.wugui.automatic.")  //设置所有包的父包 没有为空 注意注意最后要有一个点
-		.setBeans("beans")		// 设置实体类的包名 所有生成代码都根据该包下的实体类生成
+		.setBeans("beans")		// 设置实体类的包名 所有生成代码都根据该包下的实体类生成该属性值如果有.则表明只添加实体包下的一个类不支持子包
 		.setMapper("")// 该设置为mybatis xml的生成位置 如果为maven项目建议不设置该属性 注意是不设置，不是设置为空
 		.setMiddleMapp("")	// maven建议不用设置，没使用maven建议设置为"src"
 		.setMiddle("")		//  maven建议不用设置，没使用maven建议设置为"src"
@@ -133,6 +133,7 @@ startRun.setJdbcField()
 @NotNull 作用于属性 表明这个属性不可为空
 @PrimaryKey 作用于属性 表明该属性为主键
 @LengthAndNote(length=32,note="")  作用于属性 length数据类型长度，mote属性说明
+@AutoIncrement 作用于int类型表明该属性自动递增
 ```
 
 设置java数据类型与mysql数据类型对象关系

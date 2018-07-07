@@ -45,7 +45,7 @@ public class AutoMaticApp {
         String tem = packageNameConfigure.getBeans();
         if (tem.lastIndexOf(".") > 0) {
             String last = tem.substring(tem.lastIndexOf(".") + 1);
-            scan(last, packageNameConfigure.getRootPackage() + packageNameConfigure.getBeans() + "." + last);
+            scan(last, packageNameConfigure.getRootPackage() + packageNameConfigure.getBeans());
         } else {
             String beanPath = codePath + packageNameConfigure.getBeans();
             File beanFile = new File(beanPath);
@@ -55,11 +55,11 @@ public class AutoMaticApp {
                     className = f.getName().substring(0, f.getName().lastIndexOf('.'));
                     scan(className, packageNameConfigure.getRootPackage() + packageNameConfigure.getBeans() + "." + className);
                 }
-                exe.shutdown();
             } else {
                 throw new RuntimeException("实体类包不存在");
             }
         }
+        exe.shutdown();
     }
 
     /**
