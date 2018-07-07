@@ -60,9 +60,14 @@ abstract class BaseJavaCode {
         //生成包package
         buf.append("package ").append(packageNameConfigure.getRootPackage())
                 .append(PackName).append(";\n");
-        //生成bean包import
+        // 生成bean包import
         buf.append("import ").append(packageNameConfigure.getRootPackage())
-                .append(packageNameConfigure.getBeans()+"."+className+";\n");
+                .append(packageNameConfigure.getBeans());
+        // 判断是否是独立的类 若不是则需要加类名
+        if (packageNameConfigure.getBeans().lastIndexOf(".") < 0)
+            buf.append("."+className);
+        buf.append(";\n");
+
         //生成list包import
         buf.append("import java.util.List;\n");
         //生成map包import
