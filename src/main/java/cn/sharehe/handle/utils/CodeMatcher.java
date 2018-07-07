@@ -57,5 +57,26 @@ public class CodeMatcher {
         return tem;
     }
 
+    /**
+     * 用于把将tableName改为table_name
+     * 如果首字母为大写会返回小写 并且不加_
+     * @param tableName
+     * @return
+     */
+    public static String BigTo_(String tableName){
+        StringBuilder builder = new StringBuilder(tableName.length() + 2);
+        char t;
+        for (int i = 0; i < tableName.length(); i++) {
+            t = tableName.charAt(i);
+            if (t >= 'A' && t <= 'Z'){
+                if (i != 0)
+                    builder.append("_");
+                builder.append((char)(t + 32));
+            }else {
+                builder.append(t);
+            }
+        }
+        return builder.toString();
+    }
 
 }

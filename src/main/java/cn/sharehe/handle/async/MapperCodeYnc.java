@@ -7,7 +7,6 @@ import cn.sharehe.handle.configure.VarTypeConfigure;
 import cn.sharehe.handle.configure.ClassNameConfigure;
 import cn.sharehe.handle.configure.MethodNameConfigure;
 import cn.sharehe.handle.utils.CodeMatcher;
-
 import java.io.*;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -33,30 +32,31 @@ public class MapperCodeYnc implements Runnable {
         String packageName=temName.substring(0, tem);//bean包名
         //获得表明
         TableName tableName1= (TableName) clazz.getAnnotation(TableName.class);
-        if(tableName1!=null)
+        if(tableName1 != null)
             tableName=tableName1.value();
         else
-            tableName=className;
+            tableName=CodeMatcher.BigTo_(className);
+
         StringBuffer head=new StringBuffer("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"+
                 "<!DOCTYPE mapper PUBLIC \"-//mybatis.org//DTD Mapper 3.0//EN\" \"http://mybatis.org/dtd/mybatis-3-mapper.dtd\" >\n"
                 +"<mapper namespace=\""+ PackageNameConfigure.getInstance().getRootPackage()+PackageNameConfigure.getInstance().getDao()+"."+ClassNameConfigure.className.get(ClassNameConfigure.DAO).replaceAll("\\{\\}",className).replaceAll("\\.java","")+"\">\n");
         head.append("<resultMap type=\""+packageName+"."+className+"\" id=\"baseMap\">\n");
         Field fields[]=clazz.getDeclaredFields();
-        List<String> fieldl=new ArrayList<String>();
+        List<String> fieldl=new ArrayList();
         for(Field i:fields){
             if(getSqlType(i.getType())==null)
                 continue;
             fieldl.add(i.getName());  //将bean中所有属性提取出来
         }
         for(String i:fieldl){  //增加属性与map映射
-            head.append("<result column=\""+i+"\" property=\""+i+"\"/>\n");
+            head.append("<result column=\""+CodeMatcher.BigTo_(i)+"\" property=\""+i+"\"/>\n");
         }
         head.append("</resultMap>\n<sql id=\"base\">\n");  //结束
         for(int i=0;i<fieldl.size();i++){
             if(i==0)
-                head.append(fieldl.get(i));
+                head.append(CodeMatcher.BigTo_(fieldl.get(i)));
             else
-                head.append(","+fieldl.get(i));
+                head.append(","+CodeMatcher.BigTo_(fieldl.get(i)));
         }
         head.append("</sql>\n");  //sql结束
         //insert开始
@@ -64,12 +64,12 @@ public class MapperCodeYnc implements Runnable {
         head.append("insert into "+tableName+"(\n");
         head.append("<trim prefix=\"\" suffix=\"\" suffixOverrides=\",\">\n");
         for(String i:fieldl){
-            head.append("<if test=\""+i+" != null and "+i+" != '' \"> "+i+",</if>\n");
+            head.append("<if test=\""+ i +" != null and "+ i +" != '' \"> "+CodeMatcher.BigTo_(i)+",</if>\n");
         }
         head.append("</trim> )\n VALUES(");
         head.append("<trim prefix=\"\" suffix=\"\" suffixOverrides=\",\">\n");
         for(String i:fieldl){
-            head.append("<if test=\""+i+" != null and "+i+" != '' \"> #{"+i+"},</if>\n");
+            head.append("<if test=\"" + i + " != null and " + i + " != '' \"> #{" + i + "},</if>\n");
         }
         head.append("</trim>\n)\n</insert>");  //insert结束
 
@@ -81,7 +81,7 @@ public class MapperCodeYnc implements Runnable {
                     head.append(packageName+"."+className);
         head.append("\"\nresultMap=\"baseMap\">\nselect\n<include refid=\"base\" />\nfrom "+tableName+"\n<where>\n");
         for(String i:fieldl){
-            head.append("<if test=\""+i+" != null and "+i+" != '' \"> and "+i+"= #{"+i+"}</if>\n");
+            head.append("<if test=\"" + i + " != null and "+i+" != '' \"> and "+CodeMatcher.BigTo_(i)+"= #{"+i+"}</if>\n");
         }
         head.append("</where>\n");
         head.append("<!--Order by 这里写入列名  DESC/ASC-->\n<!--分页设置-->\n");
@@ -99,7 +99,7 @@ public class MapperCodeYnc implements Runnable {
         for(String i:fieldl){
             if(i.equals("id"))
                 continue;  //不更新id
-            head.append("<if test=\""+i+" != null and "+i+" != '' \"> "+i+"=#{"+i+"},</if>");
+            head.append("<if test=\""+i+" != null and "+i+" != '' \"> "+CodeMatcher.BigTo_(i)+"=#{"+i+"},</if>");
         }
         head.append("</set>\nWHERE id=#{id}\n</update>\n");  //updata结束
         //delete 开始

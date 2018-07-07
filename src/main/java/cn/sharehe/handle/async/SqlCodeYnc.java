@@ -1,10 +1,8 @@
 package cn.sharehe.handle.async;
 
-import cn.sharehe.handle.annotation.LengthAndNote;
-import cn.sharehe.handle.annotation.NotNull;
-import cn.sharehe.handle.annotation.PrimaryKey;
-import cn.sharehe.handle.annotation.TableName;
+import cn.sharehe.handle.annotation.*;
 import cn.sharehe.handle.configure.VarTypeConfigure;
+import cn.sharehe.handle.utils.CodeMatcher;
 import cn.sharehe.handle.utils.DataConnectPool;
 
 import java.lang.reflect.Field;
@@ -16,7 +14,7 @@ public class SqlCodeYnc implements Runnable {
     private String className;
     private Class clazz;
     public SqlCodeYnc(String className,Class clazz){
-        this.className=className;
+        this.className= CodeMatcher.BigTo_(className);
         this.clazz=clazz;
     }
 
@@ -41,7 +39,7 @@ public class SqlCodeYnc implements Runnable {
             len=11;
             note="";
             notnull="NULL";
-            buf.append(",").append(i.getName());
+            buf.append(",").append(CodeMatcher.BigTo_(i.getName()));
             buf.append(" "+getSqlType(i.getType()));
             lan=i.getAnnotation(LengthAndNote.class);
             if(lan!=null){
@@ -56,6 +54,8 @@ public class SqlCodeYnc implements Runnable {
                 key=i.getName();
             buf.append(" (").append(len).append(") ");
             buf .append(notnull);
+            if (i.getAnnotation(AutoIncrement.class) != null)
+                buf.append(" auto_increment");
             buf.append(" COMMENT '"+note+"' ");
         }
         if(key!=null){
