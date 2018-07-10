@@ -1,6 +1,3 @@
-# autoCode
-
-
 
 ## 工具包功能说明
 
@@ -8,7 +5,8 @@
 
 --->演示视频如下
 
-
+<!-- more -->
+<The rest of contents | 余下全文>
 
 ![演示图片gif](http://sharehe.cn/img/tool/%E6%BC%94%E7%A4%BA.gif)
 
@@ -29,8 +27,8 @@
 ```
 <dependency>
    <groupId>cn.sharehe.autoCode</groupId>
-    artifactId>autoCode</artifactId>
-    <version>1.1.2.RELEASE</version>
+   <artifactId>autoCode</artifactId>
+   <version>1.1.2.RELEASE</version>
 </dependency>
 ```
 
@@ -60,17 +58,25 @@ startRun.setOpen()  //进入工具包设置
 .setCreateTab(true);//是否创建数据库表  若需要实现该功能需要设置数据库属性与数据库连接池等
 ```
 
+## 设置程序源代码绝对路径
+
+```
+startRun.setRootPath("");
+该属性若不知如何设置 可先开始导入 在控制台会打印出如下语句
+//  代码目录为->D:\IdeaYuanma1\vote/src/..
+截取D:\IdeaYuanma1\vote/src/设置即可 注意后面的/
+```
+
 ## 设置生成代码的对应位置
 
 ```
-startRun.setRootPath("D:/IdeaYuanma1/automatic");	//设置项目源代码位置  系统第一次运行会输出编译文件地址一般源码地址都为其父地址中的某一目录  另外该地址为绝对地址
 
 startRun.setPageName()		 // 进入包名的设置
 		.setRootPackage("cn.wugui.automatic.")  //设置所有包的父包 没有为空 注意注意最后要有一个点
 		.setBeans("beans")		// 设置实体类的包名 所有生成代码都根据该包下的实体类生成该属性值如果有.则表明只添加实体包下的一个类不支持子包
 		.setMapper("")// 该设置为mybatis xml的生成位置 如果为maven项目建议不设置该属性 注意是不设置，不是设置为空
-		.setMiddleMapp("")	// maven建议不用设置，没使用maven建议设置为"src"
-		.setMiddle("")		//  maven建议不用设置，没使用maven建议设置为"src"
+		.setMiddleMapp("")	// maven建议不用设置，没使用maven建议设置为"src/"
+		.setMiddle("")		//  maven建议不用设置，没使用maven建议设置为"src/"
 		.setDao("dao")			// 设置dao接口的父包
 		.setService("service")		// 设置service接口父包
 		.setServiceImp("service.imp");	//设置service实现类父包
@@ -165,4 +171,3 @@ startRun.setTypeJavaToSql("String","varchar") //前面为java数据类型后面�
 ```
 start.run();
 ```
-
