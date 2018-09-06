@@ -2,124 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7475e026-9952-46b4-9e3d-77e2f4bea1ea" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/Char.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/Unique.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/AutoMaticApp.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/StartRun.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/AutoIncrement.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/LengthAndNote.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/NotNull.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/PrimaryKey.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/TableName.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/AutoIncrement.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/LengthAndNote.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/NotNull.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/PrimaryKey.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/TableName.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-use.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/DaoCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/MapperCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/ServiceCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/ServiceImpCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/SqlCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/DaoCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/MapperCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/ServiceCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/ServiceImpCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/SqlCodeYnc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-use.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/class-use/AutoMaticApp.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/class-use/StartRun.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/ClassNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/JdbcConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/MethodNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/OpenConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/PackageNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/VarTypeConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/ClassNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/JdbcConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/MethodNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/OpenConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/PackageNameConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/VarTypeConfigure.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-use.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-use.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/CodeMatcher.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/CreateTable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/DataConnectPool.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/CodeMatcher.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/CreateTable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/DataConnectPool.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-use.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/javadoc.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/options" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/package-list" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/packages" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/stylesheet.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/autoCode-1.1.2-RELEASE-sources.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/autoCode-1.1.2-RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp$Instance.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/StartRun.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/AutoIncrement.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/LengthAndNote.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/NotNull.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/PrimaryKey.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/TableName.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/BaseJavaCode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/DaoCodeYnc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/MapperCodeYnc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/ServiceCodeYnc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/ServiceImpCodeYnc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/SqlCodeYnc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/ClassNameConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure$Instance.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/MethodNameConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure$Instance.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure$Instance.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/VarTypeConfigure.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/CodeMatcher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/CreateTable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/DataConnectPool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoCode1.iml" afterPath="$PROJECT_DIR$/autoCode1.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/DaoCodeYnc.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/DaoCodeYnc.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/MapperCodeYnc.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/MapperCodeYnc.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/ServiceImpCodeYnc.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/ServiceImpCodeYnc.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/SqlCodeYnc.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/SqlCodeYnc.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/MethodNameConfigure.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/MethodNameConfigure.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/OpenConfigure.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/OpenConfigure.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -132,15 +29,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SqlCodeYnc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/SqlCodeYnc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="-729">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestOne.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/TestOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTwo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/TestTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding>
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,6 +91,14 @@
       <find>url</find>
       <find>name</find>
       <find>className</find>
+      <find>buf</find>
+      <find>exe</find>
+      <find>an</find>
+      <find>primaryKeyUUID</find>
+      <find>fieldl</find>
+      <find>and &quot; + i + &quot; != ''</find>
+      <find>cha</find>
+      <find>char</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,25 +113,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/ServiceCodeYnc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/DaoCodeYnc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/ServiceImpCodeYnc.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/VarTypeConfigure.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/ClassNameConfigure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/MethodNameConfigure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/OpenConfigure.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/LengthAndNote.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/utils/CodeMatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/SqlCodeYnc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/MapperCodeYnc.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/One.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/OneWugui.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/TwoWugui.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/AutoIncrement.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/DaoCodeYnc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/MethodNameConfigure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/tt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/ServiceImpCodeYnc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/OpenConfigure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/TestOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/service/imp/TestOneServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/MapperCodeYnc.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/cn/sharehe/handle/dao/TestOneDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/Unique.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/Char.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/TestTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/SqlCodeYnc.java" />
       </list>
     </option>
   </component>
@@ -210,10 +156,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-369" />
-    <option name="y" value="108" />
+    <option name="x" value="241" />
+    <option name="y" value="45" />
     <option name="width" value="845" />
-    <option name="height" value="674" />
+    <option name="height" value="636" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -231,9 +177,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,19 +188,84 @@
               <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+              <item name="async" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oneShiro" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -277,13 +289,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StartRun">
+  <component name="RunManager" selected="Application.TestTwo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="AutoMaticApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.sharehe.handle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.AutoMaticApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="autoCode1" />
+      <envs />
     </configuration>
     <configuration name="CodeMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -312,6 +343,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.StartRun" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="autoCode1" />
+      <envs />
+    </configuration>
+    <configuration name="TestTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.sharehe.handle.beans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.beans.TestTwo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -397,14 +447,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.StartRun" />
       <item index="1" class="java.lang.String" itemvalue="Application.CodeMatcher" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AutoMaticApp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestTwo" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.StartRun" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CodeMatcher" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.TestTwo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StartRun" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AutoMaticApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CodeMatcher" />
       </list>
     </recent_temporary>
   </component>
@@ -431,12 +485,20 @@
       <workItem from="1526401221253" duration="1187000" />
       <workItem from="1530941281649" duration="18093000" />
       <workItem from="1530973316197" duration="2208000" />
-      <workItem from="1531209639419" duration="49000" />
+      <workItem from="1531209639419" duration="151000" />
+      <workItem from="1535876473374" duration="6244000" />
+      <workItem from="1536072221795" duration="6234000" />
+      <workItem from="1536117805631" duration="156000" />
+      <workItem from="1536201239601" duration="2654000" />
+      <workItem from="1536215288283" duration="14000" />
+      <workItem from="1536216186142" duration="2121000" />
+      <workItem from="1536233391301" duration="29000" />
+      <workItem from="1536238392026" duration="4364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57722000" />
+    <option name="totallyTimeSpent" value="79640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,29 +515,29 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3035413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21079259" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3035413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2445194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2927383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -494,63 +556,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autoCode1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/TableName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/NotNull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/PrimaryKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/LengthAndNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2673">
-          <caret line="99" column="23" lean-forward="false" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -642,45 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/DaoCodeYnc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/ServiceImpCodeYnc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/VarTypeConfigure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/javayuanma/springboot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/MethodNameConfigure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="29" column="71" lean-forward="false" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/OpenConfigure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -691,24 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/ClassNameConfigure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/NotNull.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/TableName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -726,72 +682,209 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/utils/CodeMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="66" column="55" lean-forward="false" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/MapperCodeYnc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/SqlCodeYnc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/OneWugui.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/TwoWugui.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/service/imp/TwoWuguiServiceImp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/service/IOneWuguiService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/cn/sharehe/handle/dao/OneWuguiDao.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java">
+    <entry file="file://$PROJECT_DIR$/autoCode1.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="-2259">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/ClassNameConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/DaoCodeYnc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="e#221#222#0" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="324" column="11" lean-forward="false" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/tt.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/ServiceImpCodeYnc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#229#230#0" expanded="false" />
+            <element signature="e#273#274#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/service/ITestOneService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/utils/CreateTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+          <folding>
+            <element signature="e#4506#4507#0" expanded="false" />
+            <element signature="e#4565#4566#0" expanded="false" />
+            <element signature="e#5101#5102#0" expanded="false" />
+            <element signature="e#5165#5166#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/OpenConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/service/imp/TestOneServiceImp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/MethodNameConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="30" column="67" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/utils/CodeMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cn/sharehe/handle/dao/TestOneDao.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="101" column="44" lean-forward="true" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/AutoIncrement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="162">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/TableName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoCode1.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/Unique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="405">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/annotation/Char.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/configure/VarTypeConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#209#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/MapperCodeYnc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="62" column="41" lean-forward="false" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/TestOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/TestTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/SqlCodeYnc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -799,8 +892,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="-729">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

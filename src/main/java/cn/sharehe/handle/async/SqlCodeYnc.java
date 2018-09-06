@@ -40,25 +40,31 @@ public class SqlCodeYnc implements Runnable {
             note="";
             notnull="NULL";
             buf.append(",").append(CodeMatcher.BigTo_(i.getName()));
-            buf.append(" "+getSqlType(i.getType()));
+            if (i.getAnnotation(Char.class) != null){   // 是否是char类型
+                buf.append(" char");
+            } else {
+                buf.append(" " + getSqlType(i.getType()));
+            }
             lan=i.getAnnotation(LengthAndNote.class);
-            if(lan!=null){
+            if(lan != null){
                 note=lan.note();
                 len=lan.length();
             }
             nn=i.getAnnotation(NotNull.class);
             if(nn!=null&&nn.value())
                 notnull="NOT NULL";
-            primaryKey=i.getAnnotation(PrimaryKey.class);
-            if(primaryKey!=null)
-                key=i.getName();
+            primaryKey = i.getAnnotation(PrimaryKey.class);
+            if(primaryKey != null)
+                key = CodeMatcher.BigTo_(i.getName());
             buf.append(" (").append(len).append(") ");
             buf .append(notnull);
+            if (i.getAnnotation(Unique.class) != null)
+                buf.append(" unique");
             if (i.getAnnotation(AutoIncrement.class) != null)
                 buf.append(" auto_increment");
             buf.append(" COMMENT '"+note+"' ");
         }
-        if(key!=null){
+        if(key != null){
             buf.append(", PRIMARY KEY ("+key+")");
         }
         StringBuffer tem=new StringBuffer();

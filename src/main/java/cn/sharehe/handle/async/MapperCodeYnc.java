@@ -1,6 +1,7 @@
 package cn.sharehe.handle.async;
 
 import cn.sharehe.handle.AutoMaticApp;
+import cn.sharehe.handle.annotation.PrimaryKey;
 import cn.sharehe.handle.annotation.TableName;
 import cn.sharehe.handle.configure.PackageNameConfigure;
 import cn.sharehe.handle.configure.VarTypeConfigure;
@@ -15,6 +16,7 @@ import java.util.List;
 public class MapperCodeYnc implements Runnable {
     private Class clazz;
     private String className;
+    private String primaryNam;
     public MapperCodeYnc(Class clazz){
         this.clazz=clazz;
     }
@@ -30,7 +32,7 @@ public class MapperCodeYnc implements Runnable {
         tem=temName.lastIndexOf(".");
         className=temName.substring(tem+1);//类名
         String packageName=temName.substring(0, tem);//bean包名
-        //获得表明
+        //获得表名
         TableName tableName1= (TableName) clazz.getAnnotation(TableName.class);
         if(tableName1 != null)
             tableName=tableName1.value();
@@ -47,6 +49,8 @@ public class MapperCodeYnc implements Runnable {
             if(getSqlType(i.getType())==null)
                 continue;
             fieldl.add(i.getName());  //将bean中所有属性提取出来
+            if (i.getAnnotation(PrimaryKey.class) != null)
+                primaryNam = CodeMatcher.BigTo_(i.getName());
         }
         for(String i:fieldl){  //增加属性与map映射
             head.append("<result column=\""+CodeMatcher.BigTo_(i)+"\" property=\""+i+"\"/>\n");
@@ -69,7 +73,7 @@ public class MapperCodeYnc implements Runnable {
         head.append("</trim> )\n VALUES(");
         head.append("<trim prefix=\"\" suffix=\"\" suffixOverrides=\",\">\n");
         for(String i:fieldl){
-            head.append("<if test=\"" + i + " != null and " + i + " != '' \"> #{" + i + "},</if>\n");
+            head.append("<if test=\"" + i + " != null \"> #{" + i + "},</if>\n");
         }
         head.append("</trim>\n)\n</insert>");  //insert结束
 
@@ -81,7 +85,7 @@ public class MapperCodeYnc implements Runnable {
                     head.append(packageName+"."+className);
         head.append("\"\nresultMap=\"baseMap\">\nselect\n<include refid=\"base\" />\nfrom "+tableName+"\n<where>\n");
         for(String i:fieldl){
-            head.append("<if test=\"" + i + " != null and "+i+" != '' \"> and "+CodeMatcher.BigTo_(i)+"= #{"+i+"}</if>\n");
+            head.append("<if test=\"" + i + " != null \"> and "+CodeMatcher.BigTo_(i)+"= #{"+i+"}</if>\n");
         }
         head.append("</where>\n");
         head.append("<!--Order by 这里写入列名  DESC/ASC-->\n<!--分页设置-->\n");
@@ -90,7 +94,10 @@ public class MapperCodeYnc implements Runnable {
 
         //select by id 开始
         head.append("<select id=\""+codeReplace(MethodNameConfigure.SELECTBYID)+"\" parameterType=\"java.lang.String\"\nresultMap=\"baseMap\">\nselect\n<include refid=\"base\" />\nfrom "+tableName+"\n<where>\n");
-        head.append(codeReplace(MethodNameConfigure.SELECTBYID,0)+"= #{_parameter}\n");
+        if (primaryNam == null)
+            head.append(codeReplace(MethodNameConfigure.SELECTBYID,0)+"= #{_parameter}\n");
+        else
+            head.append(primaryNam+"= #{_parameter}\n");
         head.append("</where>\n");
         head.append("</select>\n");// by id 结束
 
@@ -99,15 +106,34 @@ public class MapperCodeYnc implements Runnable {
         for(String i:fieldl){
             if(i.equals("id"))
                 continue;  //不更新id
-            head.append("<if test=\""+i+" != null and "+i+" != '' \"> "+CodeMatcher.BigTo_(i)+"=#{"+i+"},</if>");
+            head.append("<if test=\""+i+" != null \"> "+CodeMatcher.BigTo_(i)+"=#{"+i+"},</if>");
         }
-        head.append("</set>\nWHERE id=#{id}\n</update>\n");  //updata结束
+        head.append("</set>\nWHERE ");  //updata结束
+        if (primaryNam == null)     // 主键是否存在
+            head.append("id=#{id}\n</update>\n");
+        else
+            head.append(primaryNam + "=#{"+primaryNam+"}\n</update>\n");
         //delete 开始
         head.append("<delete id=\""+codeReplace(MethodNameConfigure.DELETE)+"\" parameterType=\"String\">"+
-                "DELETE\nFROM "+tableName+"\n<where>\n"+
-                codeReplace(MethodNameConfigure.DELETE,0)+" =#{_parameter}"+
-                "</where>\n</delete>\n"); //jies
+                "DELETE\nFROM "+tableName+"\n<where>\n");
+        if (primaryNam == null)   // 主键是否为空
+            head.append(codeReplace(MethodNameConfigure.DELETE,0)+" =#{_parameter}");
+        else
+            head.append(primaryNam + " =#{_parameter}");
+        head.append("</where>\n</delete>\n"); //jies
 
+        // delete many   删除多个
+        head.append("<delete id=\""+codeReplace(MethodNameConfigure.DELETEMANY)+"\" parameterType=\"java.util.List\">"+
+                "DELETE\nFROM "+tableName+"\nwhere \n");
+        if (primaryNam == null)
+            head.append("id ");
+        else
+            head.append(primaryNam);
+
+        head.append(" in\n <foreach collection=\"ids\" item=\"item\" open=\"(\" close=\")\" separator=\",\">\n" +
+                "            #{item}\n" +
+                "        </foreach>\n");
+        head.append("</delete>\n"); //结束
         head.append("</mapper>");
         return head.toString();
     }

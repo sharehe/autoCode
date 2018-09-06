@@ -6,7 +6,7 @@ package cn.sharehe.handle.configure;
 public class OpenConfigure {
     private OpenConfigure(){}
     private static class Instance{
-        private static OpenConfigure instance=new OpenConfigure();
+        private static OpenConfigure instance = new OpenConfigure();
     }
     public static OpenConfigure getInstance(){
         return Instance.instance;
@@ -27,6 +27,17 @@ public class OpenConfigure {
     private  boolean createTab;
     //线程池数量 用于生成代码时使用
     private  int threadPool=10;
+    // 是否开启主键为uuid 默认开启
+    private boolean primaryKeyUUID = true;
+
+    public boolean isPrimaryKeyUUID() {
+        return primaryKeyUUID;
+    }
+
+    public OpenConfigure setPrimaryKeyUUID(boolean primaryKeyUUID) {
+        this.primaryKeyUUID = primaryKeyUUID;
+        return this;
+    }
 
     public boolean isScan() {
         return scan;

@@ -13,6 +13,8 @@ public class MethodNameConfigure {
     public final static int UPDATE=2;
     //标记删除的id
     public final static int DELETE=3;
+    // 标记删除多个
+    public final static int DELETEMANY = 6;
     //标记插入的id
     public final static int INSERT=4;
     //标记根据id查询的
@@ -28,7 +30,8 @@ public class MethodNameConfigure {
         MethodType.put(SELECTALL,"/查询全部数据/ public List<{}> qry{}All({} data)");
         MethodType.put(SELECTBYID,"/根据id查询一条数据/ public {} qry{}ById(String id)");
         MethodType.put(UPDATE,"/更新数据/ public boolean edit{}({} data)");
-        MethodType.put(INSERT,"/添加数据/ public boolean add{}({} data)");
-        MethodType.put(DELETE,"/删除数据/ public boolean del{}(String id)");
+        MethodType.put(INSERT,"/添加数据/ public String add{}({} data)");
+        MethodType.put(DELETE,"/删除数据/ public boolean del{}ById(String id)");
+        MethodType.put(DELETEMANY,"/删除多个数据/ public boolean del{}ManyByIds(List<String> ids)");
     }
 }

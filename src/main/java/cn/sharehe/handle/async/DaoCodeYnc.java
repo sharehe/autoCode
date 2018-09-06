@@ -13,7 +13,7 @@ public class DaoCodeYnc extends BaseJavaCode implements Runnable {
         code();
     }
     private void code(){
-        buf= appendPackage(packageNameConfigure.getDao());
+        buf = appendPackage(packageNameConfigure.getDao());
         buf.append("import org.springframework.stereotype.Repository;\n");
         buf.append("\n\t/**\n\t*数据库操作接口\n\t*"+className+"表"+"\n\t*/\n");
         buf.append("\n@Repository\n");

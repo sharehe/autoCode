@@ -8,6 +8,8 @@ import cn.sharehe.handle.configure.OpenConfigure;
 import cn.sharehe.handle.utils.CodeMatcher;
 
 import java.io.*;
+import java.util.Random;
+import java.util.UUID;
 
 /**
  * 生成编码异步类的基类
@@ -16,15 +18,21 @@ abstract class BaseJavaCode {
     //实体类名
     protected String className;
     //存放生成代码
-    protected StringBuffer buf=null;
+    protected StringBuffer buf = null;
     //功能开关
     protected OpenConfigure openConfigure;
     //关于各层包的命名
     protected PackageNameConfigure packageNameConfigure;
+    private String setPrimaryMethodName; // 设置主键方法名  需要设置uuid时 使用
     protected BaseJavaCode(String className){
         this.className =className;
         packageNameConfigure=PackageNameConfigure.getInstance();
         openConfigure=OpenConfigure.getInstance();
+    }
+
+    protected BaseJavaCode(String className,String setPrimaryMethodName){
+        this(className);
+        this.setPrimaryMethodName = setPrimaryMethodName;
     }
 
     /**
@@ -74,6 +82,9 @@ abstract class BaseJavaCode {
         buf.append("import java.util.Map;\n");
         //生成hashmap包import
         buf.append("import java.util.HashMap;\n");
+        if (setPrimaryMethodName != null){  // 是否加入uuid的包
+            buf.append("import java.util.UUID;\n");
+        }
         return buf;
     }
     /***
@@ -105,6 +116,8 @@ abstract class BaseJavaCode {
      * @return 首字母转换为大写
      */
     protected String upperCase(String str) {
+        if (str == null || str.length() < 1)
+            throw new NullPointerException("参数为空或长度小于1");
         return str.substring(0, 1).toUpperCase() + str.substring(1);
     }
 
@@ -114,6 +127,8 @@ abstract class BaseJavaCode {
      * @return 首字母转换为小写
      */
     protected String belowCase(String str){
+        if (str == null || str.length() < 1)
+            throw new NullPointerException("参数为空或长度小于1");
         return str.substring(0,1).toLowerCase()+str.substring(1);
     }
 
@@ -122,9 +137,22 @@ abstract class BaseJavaCode {
      * @param input 对应格式
      * @return {}转换为类名
      */
-   protected String codeReplace(String input){
+    protected String codeReplace(String input){
         return input.replaceAll("\\{\\}",className);
-   }
+    }
+    /**
+     * 将编码格式中的{}转换为类名
+     * @param input 对应格式
+     * @param status = true serviceImp
+     * @return {}转换为类名   如果为接口则把public清除
+     */
+    protected String codeReplace(String input,boolean status){
+        if (status)
+            return input.replaceAll("\\{\\}",className);
+        else
+            return input.replaceAll("\\{\\}",className)
+                    .replaceAll("public","");
+    }
 
     /**
      * 清除后缀 .java
@@ -153,12 +181,22 @@ abstract class BaseJavaCode {
                    //清除注解
                    tem=tem.replaceAll("/[\\w\\W]*/","");
                }
-               if(status&&openConfigure.isService()){
+               if(status && openConfigure.isService()){  // 是实现类 且有开启扫描
                  buf.append("\n\t@Override");
                }
-               buf.append("\n\t"+codeReplace(tem));
-               if(status){
-                   buf.append("{"+"\n\t\treturn ");
+               buf.append("\n\t"+codeReplace(tem,status));
+               if(status){  // 实现类 生成方法实现
+                   buf.append("{");
+                   String parameter = CodeMatcher.MethodFieldName(tem);
+                   if (OpenConfigure.getInstance().isPrimaryKeyUUID() && MethodNameConfigure.INSERT == i){ // 主键为uuid并且为add方法
+                       if (setPrimaryMethodName != null){  // 添加设置uuid
+                           buf.append("\n\t\t");
+                           buf.append(parameter + "." + setPrimaryMethodName + "(");
+                           buf.append("UUID.randomUUID().toString().replaceAll(\"-\",\"\")");
+                           buf.append(");\n");
+                       }
+                   }
+                   buf.append("\n\t\treturn ");
                    buf.append(belowCase(removeJava(ClassNameConfigure.className.get(ClassNameConfigure.DAO))));
                    buf.append("."+ codeReplace(CodeMatcher.MethodName(tem)));
                    buf.append("("+ tem.substring(tem.lastIndexOf(' ')+1,tem.length()-1)+")");

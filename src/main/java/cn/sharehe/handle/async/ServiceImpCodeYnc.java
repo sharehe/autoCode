@@ -2,8 +2,8 @@ package cn.sharehe.handle.async;
 import cn.sharehe.handle.configure.ClassNameConfigure;
 
 public class ServiceImpCodeYnc extends BaseJavaCode implements Runnable {
-    public ServiceImpCodeYnc(String className) {
-        super(className);
+    public ServiceImpCodeYnc(String className,String primaryName) {
+        super(className,primaryName);
     }
     public void run() {
         code();

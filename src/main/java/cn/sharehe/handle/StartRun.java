@@ -101,12 +101,11 @@ public void xiha(){
 
     public static void main(String[] args) {
         StartRun start=new StartRun();
-        start.setOpen().setScan(true).setDao(true).setService(true).setServiceImp(true).setMapper(true);
-        start.setOpen().setCreateTab(true);
+        start.setOpen().setScan(true).setPrimaryKeyUUID(true).setService(true).setServiceImp(true).setMapper(true);
         start.setJdbcField().setConcurrencyPool(5).setUrl("jdbc:mysql://localhost:3306/test?characterEncoding=utf-8").setUser("root").setPassword("15213497317");
         start.setMethodFormat(MethodNameConfigure.SELECTALL,"public List<{}> qry{}All(Map<String,String> map)");
         start.setPageName().setMiddle("/src/main/java/").setRootPackage("cn.sharehe.handle.");
-        start.setPageName().setBeans("beans.OneWugui");
+        start.setPageName().setBeans("beans");
         start.setRootPath("D:\\IdeaYuanma1\\autoCode1");
         start.run();
     }
