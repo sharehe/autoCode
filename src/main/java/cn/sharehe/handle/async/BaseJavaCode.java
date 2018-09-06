@@ -24,6 +24,7 @@ abstract class BaseJavaCode {
     //关于各层包的命名
     protected PackageNameConfigure packageNameConfigure;
     private String setPrimaryMethodName; // 设置主键方法名  需要设置uuid时 使用
+    private boolean isDao; // true 表示是dao层的接口
     protected BaseJavaCode(String className){
         this.className =className;
         packageNameConfigure=PackageNameConfigure.getInstance();
@@ -33,6 +34,11 @@ abstract class BaseJavaCode {
     protected BaseJavaCode(String className,String setPrimaryMethodName){
         this(className);
         this.setPrimaryMethodName = setPrimaryMethodName;
+    }
+
+    protected void code(String name,boolean status,boolean isDao){
+        this.isDao = isDao;
+        code(name,status);
     }
 
     /**
@@ -184,22 +190,33 @@ abstract class BaseJavaCode {
                if(status && openConfigure.isService()){  // 是实现类 且有开启扫描
                  buf.append("\n\t@Override");
                }
-               buf.append("\n\t"+codeReplace(tem,status));
+               if (MethodNameConfigure.INSERT == i && isDao)  // 如果是dao层的接口添加则设置返回值为 boolean
+               {
+                   buf.append("\n\t"+codeReplace(tem,status).replaceAll("^ *\\w+? ","boolean "));
+               }
+               else
+                   buf.append("\n\t"+codeReplace(tem,status));
                if(status){  // 实现类 生成方法实现
                    buf.append("{");
                    String parameter = CodeMatcher.MethodFieldName(tem);
-                   if (OpenConfigure.getInstance().isPrimaryKeyUUID() && MethodNameConfigure.INSERT == i){ // 主键为uuid并且为add方法
-                       if (setPrimaryMethodName != null){  // 添加设置uuid
-                           buf.append("\n\t\t");
+                   if (OpenConfigure.getInstance().isPrimaryKeyUUID() && MethodNameConfigure.INSERT == i && setPrimaryMethodName != null){ // 主键为uuid并且为add方法
+                           buf.append("\n\t\t"); // 设置增加uuid
+                           buf.append("String uuid = UUID.randomUUID().toString().replaceAll(\"-\",\"\");\n\t\t");
                            buf.append(parameter + "." + setPrimaryMethodName + "(");
-                           buf.append("UUID.randomUUID().toString().replaceAll(\"-\",\"\")");
+                           buf.append("uuid");
                            buf.append(");\n");
-                       }
+                       buf.append("\n\t\tif (");
+                       buf.append(belowCase(removeJava(ClassNameConfigure.className.get(ClassNameConfigure.DAO))));
+                       buf.append("."+ codeReplace(CodeMatcher.MethodName(tem)));
+                       buf.append("("+ tem.substring(tem.lastIndexOf(' ')+1,tem.length()-1)+"))");
+                       buf.append("\n\t\t\treturn uuid;");
+                       buf.append("\n\t\treturn null");
+                   }else {
+                       buf.append("\n\t\treturn ");
+                       buf.append(belowCase(removeJava(ClassNameConfigure.className.get(ClassNameConfigure.DAO))));
+                       buf.append("."+ codeReplace(CodeMatcher.MethodName(tem)));
+                       buf.append("("+ tem.substring(tem.lastIndexOf(' ')+1,tem.length()-1)+")");
                    }
-                   buf.append("\n\t\treturn ");
-                   buf.append(belowCase(removeJava(ClassNameConfigure.className.get(ClassNameConfigure.DAO))));
-                   buf.append("."+ codeReplace(CodeMatcher.MethodName(tem)));
-                   buf.append("("+ tem.substring(tem.lastIndexOf(' ')+1,tem.length()-1)+")");
                    buf.append(";\n\t}");
                }else {
                    buf.append(";");
