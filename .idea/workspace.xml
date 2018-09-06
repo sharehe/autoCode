@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7475e026-9952-46b4-9e3d-77e2f4bea1ea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/AutoMaticApp.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/beans/TestOne.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/beans/TestTwo.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -472,12 +468,12 @@
       <workItem from="1536215288283" duration="14000" />
       <workItem from="1536216186142" duration="2121000" />
       <workItem from="1536233391301" duration="29000" />
-      <workItem from="1536238392026" duration="5906000" />
+      <workItem from="1536238392026" duration="6134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81182000" />
+    <option name="totallyTimeSpent" value="81410000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,6 +486,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

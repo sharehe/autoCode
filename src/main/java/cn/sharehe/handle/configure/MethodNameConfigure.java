@@ -32,6 +32,6 @@ public class MethodNameConfigure {
         MethodType.put(UPDATE,"/更新数据/ public boolean edit{}({} data)");
         MethodType.put(INSERT,"/添加数据/ public String add{}({} data)");
         MethodType.put(DELETE,"/删除数据/ public boolean del{}ById(String id)");
-        MethodType.put(DELETEMANY,"/删除多个数据/ public boolean del{}ManyByIds(List<String> ids)");
+        MethodType.put(DELETEMANY,"/删除多个数据/ public boolean del{}ManyByIds(String[] ids)");
     }
 }

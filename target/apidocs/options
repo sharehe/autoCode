@@ -1,0 +1,24 @@
+-classpath
+'D:/IdeaYuanma1/autoCode1/target/classes;D:/maven/mysql/mysql-connector-java/5.1.43/mysql-connector-java-5.1.43.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'D:/IdeaYuanma1/autoCode1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2018. All Rights Reserved.'
+-charset
+'UTF-8'
+-d
+'D:/IdeaYuanma1/autoCode1/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'wugui 1.1.2-RELEASE API'
+-linkoffline
+'http://docs.oracle.com/javase/6/docs/api' 'D:/IdeaYuanma1/autoCode1/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'wugui 1.1.2-RELEASE API'

@@ -123,7 +123,7 @@ public class MapperCodeYnc implements Runnable {
         head.append("</where>\n</delete>\n"); //jies
 
         // delete many   删除多个
-        head.append("<delete id=\""+codeReplace(MethodNameConfigure.DELETEMANY)+"\" parameterType=\"java.util.List\">"+
+        head.append("<delete id=\""+codeReplace(MethodNameConfigure.DELETEMANY)+"\" parameterType=\"list\">"+
                 "DELETE\nFROM "+tableName+"\nwhere \n");
         if (primaryNam == null)
             head.append("id ");
