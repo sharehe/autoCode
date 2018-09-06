@@ -112,7 +112,7 @@ public class AutoMaticApp {
                 return "set" + (char)(tem - 32);
             return "set" + fieldName;
         }
-        char two = fieldName.charAt(2); // 获得第二个字符
+        char two = fieldName.charAt(1); // 获得第二个字符
         if (two >= 'a' && two <= 'z') {   // 若第二个字符为小写 则第一个字符大写 或返回本身
             char tem = fieldName.charAt(0);
             if (tem >= 'a' && tem <= 'z')
