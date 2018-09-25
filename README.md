@@ -15,7 +15,7 @@
 
 该jar包需要依赖mysql--connector
 
-[点击下载jar包](http://sharehe.cn/file/autoCode-1.1.2-RELEASE.jar)
+[点击下载jar包](http://sharehe.cn/file/autoCode-1.1.3-RELEASE.jar)
 
 [点击下载mysql连接驱动](http://sharehe.cn/file/mysql-connector-java-5.1.7-bin.jar)
 
@@ -34,6 +34,8 @@
 ```
 
 
+
+### 也可克隆源码 自己加入本地厂库
 
 
 
@@ -179,4 +181,3 @@ startRun.setMethodFormat(MethodNameConfigure.SELECTALL,"/查询全部数据/ pub
         .setMethodFormat(MethodNameConfigure.UPDATE,"/更新数据/ public boolean edit{}({} data)")
         .setMethodFormat(20,""); //可以设置自己的方法 但是导入到xml中的方法只有以上5个方法
 ```
-
