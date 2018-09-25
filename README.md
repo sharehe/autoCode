@@ -1,7 +1,8 @@
-
 ## 工具包功能说明
 
 该工具包主要完成在项目内根据提供的实体类包，自动生成spring mybatis，所需要的service层接口与实现，数据库表的创建包括主键，描述，长度等的设置，数据库操作接口与对应xml文件，支持jar与maven 
+
+**可生成的为 增删改查，删除多个，查询多个的方法 **
 
 --->演示视频如下
 
@@ -28,7 +29,7 @@
 <dependency>
    <groupId>cn.sharehe.autoCode</groupId>
    <artifactId>autoCode</artifactId>
-   <version>1.1.2.RELEASE</version>
+   <version>1.1.3.RELEASE</version>
 </dependency>
 ```
 
@@ -55,6 +56,7 @@ startRun.setOpen()  //进入工具包设置
 .setService(true)	//是否生成service的接口
 .setServiceImp(true)//是否生成service的实现类  与是否生成接口没有关联
 .setThreadPool(10)	//设置线程池大小  默认为10
+.setPrimaryKeyUUID(true) // 是否设置主键为uuid 若开启 则插入操作会设置主键值为uuid
 .setCreateTab(true);//是否创建数据库表  若需要实现该功能需要设置数据库属性与数据库连接池等
 ```
 
@@ -64,7 +66,7 @@ startRun.setOpen()  //进入工具包设置
 startRun.setRootPath("");
 该属性若不知如何设置 可先开始导入 在控制台会打印出如下语句
 //  代码目录为->D:\IdeaYuanma1\vote/src/..
-截取D:\IdeaYuanma1\vote/src/设置即可 注意后面的/
+截取D:\IdeaYuanma1\vote设置即可
 ```
 
 ## 设置生成代码的对应位置
@@ -73,7 +75,9 @@ startRun.setRootPath("");
 
 startRun.setPageName()		 // 进入包名的设置
 		.setRootPackage("cn.wugui.automatic.")  //设置所有包的父包 没有为空 注意注意最后要有一个点
-		.setBeans("beans")		// 设置实体类的包名 所有生成代码都根据该包下的实体类生成该属性值如果有.则表明只添加实体包下的一个类不支持子包
+		.setBeans("beans")		// 设置实体类的包名 所有生成代码都根据该包下的实体类生成该属性值如果有.则表明只添加实体包下的一个类不支持子包  
+		注意  
+			如果只需要生产一个实体类的代码 这设置为beans.BeanName（实体类名）
 		.setMapper("")// 该设置为mybatis xml的生成位置 如果为maven项目建议不设置该属性 注意是不设置，不是设置为空
 		.setMiddleMapp("")	// maven建议不用设置，没使用maven建议设置为"src/"
 		.setMiddle("")		//  maven建议不用设置，没使用maven建议设置为"src/"
@@ -83,40 +87,6 @@ startRun.setPageName()		 // 进入包名的设置
 ```
 
 
-
-## 设置类名格式与方法格式
-
-在设置格式中 存在{}符号 该符号表示生成的文件名将替换为实体类的类名
-
-在下面的配置中的值为默认值 若相同则可以不用设置
-
-```
-startRun.setClassFormat(ClassNameConfigure.DAO,"{}Dao.java")// dao的类名格式
-        .setClassFormat(ClassNameConfigure.SERVICE,"I{}Service.java")  //service接口的类名格式
-        .setClassFormat(ClassNameConfigure.SERVICEIMP,"{}ServiceImp.java") //servoce实现的类格式
-        .setClassFormat(ClassNameConfigure.MAPPER,"{}Mapper.xml");		//mybatis 文件名格式
-        
-        //注意文件后缀
-```
-
-
-
-## 设置方法名格式
-
-该功能中 xml会根据方法中最后一个参数生成对应的parameterType
-
-在方法格式中出现//字符表示未该方法写的注释 /这里写注释/
-
-在下面的配置中的值为默认值 若相同则可以不用设置
-
-```
-startRun.setMethodFormat(MethodNameConfigure.SELECTALL,"/查询全部数据/ public List<{}> qry{}All({} data)") 
-        .setMethodFormat(MethodNameConfigure.DELETE,"/删除数据/ public boolean del{}(String id)")
-        .setMethodFormat(MethodNameConfigure.INSERT,"/添加数据/ public boolean add{}({} data)")
-        .setMethodFormat(MethodNameConfigure.SELECTBYID,"/根据id查询一条数据/ public {} qry{}ById(String id)")
-        .setMethodFormat(MethodNameConfigure.UPDATE,"/更新数据/ public boolean edit{}({} data)")
-        .setMethodFormat(20,""); //可以设置自己的方法 但是导入到xml中的方法只有以上5个方法
-```
 
 
 
@@ -140,6 +110,8 @@ startRun.setJdbcField()
 @PrimaryKey 作用于属性 表明该属性为主键
 @LengthAndNote(length=32,note="")  作用于属性 length数据类型长度，mote属性说明
 @AutoIncrement 作用于int类型表明该属性自动递增
+@Char  作用于属性 设置属性为char类型
+@Unique 作用于属性 设置属性具有唯一性
 ```
 
 设置java数据类型与mysql数据类型对象关系
@@ -171,3 +143,40 @@ startRun.setTypeJavaToSql("String","varchar") //前面为java数据类型后面�
 ```
 start.run();
 ```
+
+
+
+## 设置类名格式与方法格式 可不用设置
+
+在设置格式中 存在{}符号 该符号表示生成的文件名将替换为实体类的类名
+
+在下面的配置中的值为默认值 若相同则可以不用设置
+
+```
+startRun.setClassFormat(ClassNameConfigure.DAO,"{}Dao.java")// dao的类名格式
+        .setClassFormat(ClassNameConfigure.SERVICE,"I{}Service.java")  //service接口的类名格式
+        .setClassFormat(ClassNameConfigure.SERVICEIMP,"{}ServiceImp.java") //servoce实现的类格式
+        .setClassFormat(ClassNameConfigure.MAPPER,"{}Mapper.xml");		//mybatis 文件名格式
+        
+        //注意文件后缀
+```
+
+
+
+## 设置方法名格式 可不用设置
+
+该功能中 xml会根据方法中最后一个参数生成对应的parameterType
+
+在方法格式中出现//字符表示未该方法写的注释 /这里写注释/
+
+在下面的配置中的值为默认值 若相同则可以不用设置
+
+```
+startRun.setMethodFormat(MethodNameConfigure.SELECTALL,"/查询全部数据/ public List<{}> qry{}All({} data)") 
+        .setMethodFormat(MethodNameConfigure.DELETE,"/删除数据/ public boolean del{}(String id)")
+        .setMethodFormat(MethodNameConfigure.INSERT,"/添加数据/ public boolean add{}({} data)")
+        .setMethodFormat(MethodNameConfigure.SELECTBYID,"/根据id查询一条数据/ public {} qry{}ById(String id)")
+        .setMethodFormat(MethodNameConfigure.UPDATE,"/更新数据/ public boolean edit{}({} data)")
+        .setMethodFormat(20,""); //可以设置自己的方法 但是导入到xml中的方法只有以上5个方法
+```
+
