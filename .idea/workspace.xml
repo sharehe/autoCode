@@ -1,233 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7475e026-9952-46b4-9e3d-77e2f4bea1ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/autoCode1.iml" afterPath="$PROJECT_DIR$/autoCode1.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/DaoCodeYnc.java" afterPath="$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/DaoCodeYnc.java" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/AutoMaticApp.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/AutoMaticApp.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/StartRun.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/StartRun.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/AutoIncrement.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/AutoIncrement.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/Char.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/Char.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/LengthAndNote.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/LengthAndNote.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/NotNull.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/NotNull.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/PrimaryKey.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/PrimaryKey.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/TableName.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/TableName.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/Unique.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/Unique.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/AutoIncrement.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/AutoIncrement.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/Char.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/Char.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/LengthAndNote.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/LengthAndNote.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/NotNull.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/NotNull.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/PrimaryKey.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/PrimaryKey.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/TableName.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/TableName.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/Unique.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/class-use/Unique.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/annotation/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/DaoCodeYnc.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/DaoCodeYnc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/MapperCodeYnc.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/MapperCodeYnc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/ServiceCodeYnc.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/ServiceCodeYnc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/ServiceImpCodeYnc.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/ServiceImpCodeYnc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/SqlCodeYnc.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/SqlCodeYnc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/DaoCodeYnc.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/DaoCodeYnc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/MapperCodeYnc.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/MapperCodeYnc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/ServiceCodeYnc.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/ServiceCodeYnc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/ServiceImpCodeYnc.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/ServiceImpCodeYnc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/SqlCodeYnc.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/class-use/SqlCodeYnc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/async/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/class-use/AutoMaticApp.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/class-use/AutoMaticApp.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/class-use/StartRun.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/class-use/StartRun.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/ClassNameConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/ClassNameConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/JdbcConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/JdbcConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/MethodNameConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/MethodNameConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/OpenConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/OpenConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/PackageNameConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/PackageNameConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/VarTypeConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/VarTypeConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/ClassNameConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/ClassNameConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/JdbcConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/JdbcConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/MethodNameConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/MethodNameConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/OpenConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/OpenConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/PackageNameConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/PackageNameConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/VarTypeConfigure.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/class-use/VarTypeConfigure.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/configure/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/CodeMatcher.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/CodeMatcher.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/CreateTable.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/CreateTable.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/DataConnectPool.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/DataConnectPool.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/CodeMatcher.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/CodeMatcher.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/CreateTable.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/CreateTable.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/DataConnectPool.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/class-use/DataConnectPool.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/cn/sharehe/handle/utils/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="$PROJECT_DIR$/target/apidocs/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" />
-      <change beforePath="$PROJECT_DIR$/target/autoCode-1.1.2-RELEASE-sources.jar" afterPath="$PROJECT_DIR$/target/autoCode-1.1.2-RELEASE-sources.jar" />
-      <change beforePath="$PROJECT_DIR$/target/autoCode-1.1.2-RELEASE.jar" afterPath="$PROJECT_DIR$/target/autoCode-1.1.2-RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp$1.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp$Instance.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp$Instance.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/AutoMaticApp.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/StartRun.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/StartRun.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/AutoIncrement.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/AutoIncrement.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/Char.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/Char.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/LengthAndNote.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/LengthAndNote.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/NotNull.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/NotNull.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/PrimaryKey.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/PrimaryKey.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/TableName.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/TableName.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/Unique.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/annotation/Unique.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/BaseJavaCode.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/BaseJavaCode.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/DaoCodeYnc.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/DaoCodeYnc.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/MapperCodeYnc.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/MapperCodeYnc.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/ServiceCodeYnc.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/ServiceCodeYnc.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/ServiceImpCodeYnc.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/ServiceImpCodeYnc.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/SqlCodeYnc.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/async/SqlCodeYnc.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/ClassNameConfigure.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/ClassNameConfigure.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure$1.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure$Instance.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure$Instance.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/JdbcConfigure.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/MethodNameConfigure.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/MethodNameConfigure.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure$1.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure$Instance.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure$Instance.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/OpenConfigure.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure$1.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure$Instance.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure$Instance.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/PackageNameConfigure.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/VarTypeConfigure.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/configure/VarTypeConfigure.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/CodeMatcher.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/CodeMatcher.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/CreateTable.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/CreateTable.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/DataConnectPool.class" afterPath="$PROJECT_DIR$/target/classes/cn/sharehe/handle/utils/DataConnectPool.class" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_43.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoCode1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/autoCode1.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StartRun.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2079">
-              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding>
-                <element signature="e#1946#1947#0" expanded="true" />
-                <element signature="e#1988#1989#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseJavaCode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/BaseJavaCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="199" column="35" lean-forward="false" selection-start-line="199" selection-start-column="35" selection-end-line="199" selection-end-column="35" />
-              <folding>
-                <element signature="e#4681#4682#0" expanded="true" />
-                <element signature="e#4740#4741#0" expanded="true" />
-                <element signature="e#5276#5277#0" expanded="true" />
-                <element signature="e#5340#5341#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/beans/TestO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DaoCodeYnc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/DaoCodeYnc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapperCodeYnc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/MapperCodeYnc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="125" column="101" lean-forward="false" selection-start-line="125" selection-start-column="101" selection-end-line="125" selection-end-column="101" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceImpCodeYnc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/ServiceImpCodeYnc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceCodeYnc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/async/ServiceCodeYnc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -303,6 +90,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -316,6 +106,7 @@
     <option name="width" value="845" />
     <option name="height" value="636" />
   </component>
+  <component name="ProjectId" id="2JILMJz6Pge5hyUNHeLbaqFGPXS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -411,15 +202,22 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oneShiro" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "49102e0ff06a7d6f39e0baff1d642434",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaYuanma1\autoCode1\src\test" />
@@ -431,18 +229,6 @@
       <recent name="D:\IdeaYuanma1\autoCode1\src\main\java\cn\sharehe" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.StartRun">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -452,173 +238,108 @@
       <module />
     </configuration>
     <configuration name="AutoMaticApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.AutoMaticApp" />
+      <module name="autoCode1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.sharehe.handle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.AutoMaticApp" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="autoCode1" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CodeMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.utils.CodeMatcher" />
+      <module name="autoCode1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.sharehe.handle.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.utils.CodeMatcher" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="autoCode1" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="StartRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.StartRun" />
+      <module name="autoCode1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.sharehe.handle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.StartRun" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="autoCode1" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.beans.TestTwo" />
+      <module name="autoCode1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.sharehe.handle.beans.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.sharehe.handle.beans.TestTwo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="autoCode1" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.StartRun" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CodeMatcher" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AutoMaticApp" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestTwo" />
+    <list>
+      <item itemvalue="Application.StartRun" />
+      <item itemvalue="Application.CodeMatcher" />
+      <item itemvalue="Application.AutoMaticApp" />
+      <item itemvalue="Application.TestTwo" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.StartRun" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestTwo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AutoMaticApp" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CodeMatcher" />
+      <list>
+        <item itemvalue="Application.StartRun" />
+        <item itemvalue="Application.TestTwo" />
+        <item itemvalue="Application.AutoMaticApp" />
+        <item itemvalue="Application.CodeMatcher" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration" myUseAcceleration="nothing">
     <configuration useDefault="false">D:\IdeaYuanma1\svnDir</configuration>
   </component>
@@ -648,6 +369,7 @@
       <workItem from="1536216186142" duration="2121000" />
       <workItem from="1536233391301" duration="29000" />
       <workItem from="1536238392026" duration="10573000" />
+      <workItem from="1671760602717" duration="205000" />
     </task>
     <servers />
   </component>
@@ -698,16 +420,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="6" />
-    </breakpoint-manager>
-    <watches-manager />
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/sharehe/handle/StartRun.java">

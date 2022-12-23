@@ -22,6 +22,7 @@
 ## maven坐标
 
 是在惭愧 博主在上传到maven中央厂库的过程中出现了一些事故，目前还在解决中 所以使用maven管理项目需要自动把[点击下载项目包](http://sharehe.cn/file/cn.zip)放入本地厂库中 maven默认的厂库位置为  C:\Users\Administrator\.m2\repository
+加油中
 
 坐标为下
 
